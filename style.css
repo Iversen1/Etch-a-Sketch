@@ -1,0 +1,32 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+  font-size: 1.6rem;
+}
+
+.wrapper {
+  display:grid;
+  justify-content: center;
+  border: 1px solid;
+  width: 1530px;
+  margin-left: 50%;
+}
+
+.container {
+  display:grid;
+  justify-content: center;
+  grid-template-columns: repeat(16, 10%);
+  grid-gap: 0px; 
+  width:960px;
+  height: 1800px;
+  
+}
+
+.grid-item {
+  padding: 1em;
+  border: 1px black solid;
+
+ 
+
+
+//*grid-template-columns: repeat(16, minmax(10px, 1fr));//
